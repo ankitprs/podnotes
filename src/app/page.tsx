@@ -1,7 +1,14 @@
+import Image from "next/image";
 import { AssetsSection } from "@/components/AssetsSection";
+import { FAQs } from "@/components/FAQs";
+import { Features } from "@/components/Features";
+import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { HowItWorks } from "@/components/HowItWorks";
-import Image from "next/image";
+import { OtherFeatures } from "@/components/OtherFeatures";
+import { Pricing } from "@/components/Pricing";
+import { TrustedBy } from "@/components/TrustedBy";
+import { TryFreeBar } from "@/components/TryFreeBar";
 
 
 export default function Home() {
@@ -14,6 +21,13 @@ export default function Home() {
       </div>
       <HowItWorks />
       <AssetsSection />
+      <Features />
+      <OtherFeatures />
+      <Pricing />
+      <TrustedBy />
+      <FAQs />
+      <TryFreeBar />
+      <Footer />
     </main>
   );
 }
